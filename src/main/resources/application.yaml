@@ -1,0 +1,14 @@
+
+#ssh
+ssh:
+   host: 127.0.0.1
+   username: liubaowen
+   password: qq19930922
+   port: 22
+
+#ftp
+ftp:
+   host: 127.0.0.1
+   port: 21
+   username: 
+   password: 

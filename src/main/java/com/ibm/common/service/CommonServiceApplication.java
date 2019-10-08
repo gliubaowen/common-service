@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.ibm.common"})
+@ComponentScan(basePackages = { "com.ibm.common" })
 public class CommonServiceApplication {
 
 	public static void main(String[] args) {
