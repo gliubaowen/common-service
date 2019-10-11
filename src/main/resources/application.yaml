@@ -1,4 +1,9 @@
 
+server:
+   port: 80
+   servlet:
+      context-path: /common-service
+
 #ssh
 ssh:
    host: 127.0.0.1
