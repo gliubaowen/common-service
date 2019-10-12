@@ -13,6 +13,8 @@ spring:
 #         additional-paths: src/main/java
 # 指定目录不更新
          exclude: test/**
+   main:
+      allow-bean-definition-overriding: true
 
 #ssh
 ssh:
