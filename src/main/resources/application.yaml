@@ -4,11 +4,21 @@ server:
    servlet:
       context-path: /common-service
 
+# 热部署开关，false即不启用热部署
+spring:
+   devtools:
+      restart:
+         enabled: true
+# 指定热部署的目录
+#         additional-paths: src/main/java
+# 指定目录不更新
+         exclude: test/**
+
 #ssh
 ssh:
    host: 127.0.0.1
-   username: liubaowen
-   password: qq19930922
+   username: root
+   password: 123/abc
    port: 22
 
 #ftp

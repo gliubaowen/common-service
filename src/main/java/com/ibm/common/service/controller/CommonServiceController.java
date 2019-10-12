@@ -14,8 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-@RequestMapping("service")
+//@RequestMapping("service")
 public class CommonServiceController {
+
+	@RequestMapping("/")
+	public String index() {
+
+		return "Hello Index !";
+	}
 
 	@RequestMapping("helloworld")
 	public String helloWorld() {
@@ -25,7 +31,7 @@ public class CommonServiceController {
 
 	@GetMapping("test")
 	public String test() {
-		return "test";
+		return "Hello test";
 	}
 
 }

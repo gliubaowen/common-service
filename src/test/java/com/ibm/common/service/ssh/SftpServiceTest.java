@@ -27,8 +27,8 @@ public class SftpServiceTest {
 	private SftpService sftpService;
 
 	@Test
-	public void TestListFiles() {
-		
+	public void testListFiles() {
+
 		sftpService.login();
 		String directory = null;
 		try {

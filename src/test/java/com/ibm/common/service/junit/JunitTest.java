@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class JunitTest {
 
 	@Test
-	public void Test() {
+	public void test() {
 		System.out.println("Hello Spring Boot");
 	}
 
