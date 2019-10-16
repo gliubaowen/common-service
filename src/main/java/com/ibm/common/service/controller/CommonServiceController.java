@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-//@RequestMapping("service")
+@RequestMapping("service")
 public class CommonServiceController {
 
 	@RequestMapping("/")
