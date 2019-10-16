@@ -28,8 +28,8 @@ public class CommonServiceControllerCommands {
 	 * @return
 	 */
 	@ShellMethod(value = "Controller helloWorld.", key = "ctlsum")
-	public String add() {
+	public String ctlsum() {
 		return commonServiceController.helloWorld();
 	}
-	
+
 }

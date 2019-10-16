@@ -17,13 +17,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("service")
 public class CommonServiceController {
 
-	@RequestMapping("/")
+	@GetMapping("/")
 	public String index() {
 
 		return "Hello Index !";
 	}
 
-	@RequestMapping("helloworld")
+	@GetMapping("helloworld")
 	public String helloWorld() {
 
 		return "Hello World";
