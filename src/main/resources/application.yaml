@@ -13,10 +13,10 @@ spring:
          enabled: true #在浏览器中开启H2控制台 http://localhost/common-service/h2-console
    main:
       allow-bean-definition-overriding: true
-#log
+#log logging.path he logging.file 同时配置只会生效一个 
 logging:
    path: /opt/log/common-service/
-   file: common-service
+   file: /opt/log/common-service/common-service.log
    level:
       root: DEBUG
       org:
