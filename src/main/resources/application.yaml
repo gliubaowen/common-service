@@ -13,8 +13,12 @@ spring:
          enabled: true #在浏览器中开启H2控制台 http://localhost/common-service/h2-console
    main:
       allow-bean-definition-overriding: true
+#log
 logging:
+   path: /opt/log/common-service/
+   file: common-service
    level:
+      root: DEBUG
       org:
          hibernate: DEBUG
 #ssh
@@ -28,4 +32,6 @@ ftp:
    host: 127.0.0.1
    port: 21
    username: null
-   password: null
+   password: null  
+
+   
