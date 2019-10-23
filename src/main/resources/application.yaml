@@ -19,8 +19,8 @@ logging:
    file: /opt/log/common-service/common-service.log
    level:
       root: DEBUG
-      org:
-         hibernate: DEBUG
+#      org:
+#         hibernate: DEBUG
 #ssh
 ssh:
    host: 127.0.0.1
@@ -33,5 +33,6 @@ ftp:
    port: 21
    username: null
    password: null  
-
+mybatis:
+   type-aliases-package: com.ibm.common.service.entity
    

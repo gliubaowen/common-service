@@ -21,14 +21,13 @@ public class CommonServiceControllerCommands {
 
 	/**
 	 * 
-	 * 
 	 * @author LiuBaoWen
 	 * @param a
 	 * @param b
 	 * @return
 	 */
-	@ShellMethod(value = "Controller helloWorld.", key = "ctlsum")
-	public String ctlsum() {
+	@ShellMethod(value = "Controller helloWorld.", key = "helloworld")
+	public String helloWorld() {
 		return commonServiceController.helloWorld();
 	}
 

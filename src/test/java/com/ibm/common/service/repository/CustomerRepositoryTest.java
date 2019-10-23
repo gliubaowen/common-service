@@ -45,7 +45,7 @@ public class CustomerRepositoryTest {
 		log.info("");
 
 		// fetch an individual customer by ID
-		Customer customer = repository.findById(1L);
+		Customer customer = repository.findById(1L).get();
 		log.info("Customer found with findById(1L):");
 		log.info("--------------------------------");
 		log.info(customer.toString());
@@ -60,6 +60,12 @@ public class CustomerRepositoryTest {
 		// for (Customer bauer : repository.findByLastName("Bauer")) {
 		// log.info(bauer.toString());
 		// }
+		log.info("");
+
+		log.info("Customer found with count('Bauer'):");
+		log.info("--------------------------------------------");
+		long count = repository.count();
+		log.info("{}", count);
 		log.info("");
 	}
 
