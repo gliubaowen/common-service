@@ -8,13 +8,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import org.springframework.stereotype.Component;
-
 /**
+ * 客户 Entity
+ * 
  * @author LiuBaoWen
  *
  */
-@Component
 @Entity
 public class Customer {
 
