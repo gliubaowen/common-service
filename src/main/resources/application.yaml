@@ -1,5 +1,5 @@
 server:
-   port: 80
+   port: 88
    servlet:
       context-path: /common-service
 spring:
@@ -10,7 +10,7 @@ spring:
 #         additional-paths: src/main/java # 指定热部署的目录
    h2:
       console:
-         enabled: true #在浏览器中开启H2控制台 http://localhost/common-service/h2-console
+         enabled: true #在浏览器中开启H2控制台 http://localhost:88/common-service/h2-console
    main:
       allow-bean-definition-overriding: true
 #log logging.path he logging.file 同时配置只会生效一个 
