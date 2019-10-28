@@ -35,4 +35,10 @@ ftp:
    password: null  
 mybatis:
    type-aliases-package: com.ibm.common.service.entity
+#MQ
+mq:
+   rocketmq:
+      producer-group: please_rename_unique_group_name
+      namesrv-addr: localhost:9876
+      retry: 0
    
