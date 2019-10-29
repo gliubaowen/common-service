@@ -13,6 +13,8 @@ import org.springframework.context.annotation.Configuration;
 import com.ibm.common.service.CommonServiceApplication;
 
 /**
+ * RocketMQ Producer Config
+ * 
  * @author LiuBaoWen
  *
  */
@@ -30,6 +32,13 @@ public class RocketMQProducerConfig {
 	@Value("${mq.rocketmq.retry}")
 	private int retry;
 
+	/**
+	 * producer services bean
+	 * 
+	 * @author LiuBaoWen
+	 * @return
+	 * @throws Exception
+	 */
 	@Bean
 	public DefaultMQProducer producer() throws Exception {
 		// Instantiate with a producer group name.

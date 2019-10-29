@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Configuration;
 import com.ibm.common.service.CommonServiceApplication;
 
 /**
- * RocketMQ Consumer
+ * RocketMQ Consumer config
  * 
  * @author LiuBaoWen
  *
@@ -31,10 +31,16 @@ public class RocketMQConsumerConfig {
 
 	@Value("${mq.rocketmq.producer-group}")
 	private String producerGroup;
-	
+
 	@Value("${mq.rocketmq.namesrv-addr}")
 	private String namesrvAddr;
-	
+
+	/**
+	 * consumer services bean
+	 * 
+	 * @author LiuBaoWen
+	 * @throws Exception
+	 */
 	@Bean
 	public void consumer() throws Exception {
 		// Instantiate with specified consumer group name.

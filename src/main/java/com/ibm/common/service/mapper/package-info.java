@@ -7,4 +7,4 @@
  * @author LiuBaoWen
  *
  */
-package com.ibm.common.service.repository.mapper;
+package com.ibm.common.service.mapper;

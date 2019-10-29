@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ibm.common.service.repository.mapper;
+package com.ibm.common.service.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

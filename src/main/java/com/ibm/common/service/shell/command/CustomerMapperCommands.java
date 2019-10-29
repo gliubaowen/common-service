@@ -9,7 +9,7 @@ import org.springframework.shell.standard.ShellMethod;
 
 import com.alibaba.fastjson.JSON;
 import com.ibm.common.service.entity.Customer;
-import com.ibm.common.service.repository.mapper.CustomerMapper;
+import com.ibm.common.service.mapper.CustomerMapper;
 
 /**
  * @author LiuBaoWen
