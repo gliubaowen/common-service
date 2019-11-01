@@ -8,6 +8,8 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import com.ibm.common.service.entity.User;
 
 /**
+ * Mongo UserRepository
+ * 
  * @author LiuBaoWen
  *
  */

@@ -12,6 +12,8 @@ import org.apache.ibatis.annotations.Select;
 import com.ibm.common.service.entity.Customer;
 
 /**
+ * CustomerMapper
+ * 
  * @author LiuBaoWen
  *
  */

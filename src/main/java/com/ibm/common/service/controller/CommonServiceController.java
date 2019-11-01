@@ -24,12 +24,7 @@ public class CommonServiceController {
 
 	@GetMapping("helloworld")
 	public String helloWorld() {
-		return "Hello World";
-	}
-
-	@GetMapping("test")
-	public String test() {
-		return "Hello test";
+		return "Hello Common Service!";
 	}
 
 }
