@@ -7,4 +7,4 @@
  * @author LiuBaoWen
  *
  */
-package com.lbw.common.service.repository;
+package com.lbw.common.service.repository.mapper;

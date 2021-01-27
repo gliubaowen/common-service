@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import com.alibaba.fastjson.JSON;
 import com.lbw.common.service.entity.User;
-import com.lbw.common.service.mongodb.UserRepository;
+import com.lbw.common.service.repository.mongodb.UserRepository;
 
 /**
  * @author LiuBaoWen

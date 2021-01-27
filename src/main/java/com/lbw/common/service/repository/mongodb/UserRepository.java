@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.lbw.common.service.mongodb;
+package com.lbw.common.service.repository.mongodb;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

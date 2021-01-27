@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 import com.lbw.common.core.ftp.FtpClientService;
 import com.lbw.common.core.ssh.SftpClientService;
+import com.lbw.common.service.runner.CustomerApplicationRunner;
 
 /**
  * 配置类
@@ -38,6 +39,17 @@ public class CommonServiceConfig {
 	@Bean
 	public FtpClientService ftpClientService() {
 		return new FtpClientService();
+	}
+
+	/**
+	 * ApplicationRunner
+	 * 
+	 * @author LiuBaoWen
+	 * @return
+	 */
+	@Bean
+	public CustomerApplicationRunner customerApplicationRunner() {
+		return new CustomerApplicationRunner();
 	}
 
 }

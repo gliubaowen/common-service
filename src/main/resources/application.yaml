@@ -2,7 +2,12 @@ server:
   port: 88
   servlet:
     context-path: /common-service
+
 spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
   devtools:
     restart:
       enabled: true # 热部署开关，false即不启用热部署
