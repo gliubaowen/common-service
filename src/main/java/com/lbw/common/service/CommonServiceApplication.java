@@ -26,7 +26,7 @@ public class CommonServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CommonServiceApplication.class, args);
 		
-		Endpoint.publish("http://127.0.0.1:80/weather", new WeatherInterfaceImpl());
+		Endpoint.publish("http://127.0.0.1:8081/weather", new WeatherInterfaceImpl());
 		
 	}
 
